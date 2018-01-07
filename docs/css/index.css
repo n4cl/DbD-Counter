@@ -1,17 +1,5 @@
 @charset "UTF-8";
 
-.dialog_table {
-    display: table;
-    table-layout: fixed;
-    margin: 0 0 0 2rem;
-}
-
-.row {
-    display: table-row;
-}
-
-.cell { 
-    display: table-cell;
-    vertical-align: middle;
-    padding: 5px;
+.lbl-player {
+    text-align: center;
 }
