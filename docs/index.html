@@ -11,9 +11,46 @@
     <title>DbD Counter</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
- </head>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
   <body>
-    <h1>DbD Counter</h1>
+      <div class="dialog_table">
+          <div class="row">
+              <div class="cell c1f lbl-player"><span id="lbl-player1">0</span></div>
+              <div class="cell c2f lbl-player"><span id="lbl-player2">0</span></div>
+              <div class="cell c3f lbl-player"><span id="lbl-player3">0</span></div>
+              <div class="cell c4f lbl-player"><span id="lbl-player4">0</span></div>
+          </div>
+          <div class="row">
+              <div class="cell c1f">
+                <button id="btn_up1" type="button" class="btn btn-default">↑</button>
+              </div>
+              <div class="cell c2f">
+                <button id="btn_up2" type="button" class="btn btn-default">↑</button>
+              </div>
+              <div class="cell c3f">
+                <button id="btn_up3" type="button" class="btn btn-default">↑</button>
+              </div>
+              <div class="cell c4f">
+                <button id="btn_up4" type="button" class="btn btn-default">↑</button>
+              </div>
+          </div>
+          <div class="row">
+              <div class="cell c1f">
+                <button id="btn_down1" type="button" class="btn btn-default">↓</button>
+              </div>
+              <div class="cell c2f">
+                <button id="btn_down2" type="button" class="btn btn-default">↓</button>
+              </div>
+              <div class="cell c3f">
+                <button id="btn_down3" type="button" class="btn btn-default">↓</button>
+              </div>
+              <div class="cell c4f">
+                <button id="btn_down4" type="button" class="btn btn-default">↓</button>
+              </div>
+          </div>
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
