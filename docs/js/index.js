@@ -56,5 +56,24 @@
         }
         return v;
     }
-
+    window.document.onkeydown = function (e) {
+        switch (e.keyCode) {
+        // 1
+        case 49:
+            g.elm.lbl_player1.firstChild.nodeValue = upCount(g.elm.lbl_player1.firstChild.nodeValue);
+            return;
+        // 2
+        case 50:
+            g.elm.lbl_player2.firstChild.nodeValue = upCount(g.elm.lbl_player2.firstChild.nodeValue);
+            return;
+        // 3
+        case 51:
+            g.elm.lbl_player3.firstChild.nodeValue = upCount(g.elm.lbl_player3.firstChild.nodeValue);
+            return;
+        // 4
+        case 52:
+            g.elm.lbl_player4.firstChild.nodeValue = upCount(g.elm.lbl_player4.firstChild.nodeValue);
+            return;
+        }
+    };
 })();
