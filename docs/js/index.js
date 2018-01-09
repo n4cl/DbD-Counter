@@ -56,8 +56,20 @@
         }
         return v;
     }
+
+    function resetCount() {
+        g.elm.lbl_player1.firstChild.nodeValue = 0;
+        g.elm.lbl_player2.firstChild.nodeValue = 0;
+        g.elm.lbl_player3.firstChild.nodeValue = 0;
+        g.elm.lbl_player4.firstChild.nodeValue = 0;
+    }
+
     window.document.onkeydown = function (e) {
         switch (e.keyCode) {
+        // 0
+        case 48:
+            resetCount();
+            return;
         // 1
         case 49:
             g.elm.lbl_player1.firstChild.nodeValue = upCount(g.elm.lbl_player1.firstChild.nodeValue);
