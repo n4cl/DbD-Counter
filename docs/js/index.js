@@ -1,4 +1,4 @@
-(function(){
+glb.index = function(){
     'use strict';
     let g = {elm:{}};
 
@@ -88,4 +88,5 @@
             return;
         }
     };
-})();
+};
+glb.index();
